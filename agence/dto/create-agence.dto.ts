@@ -1,10 +1,10 @@
 import { ApiProperty } from "@nestjs/swagger";
 
 export class CreateAgenceDto {
-    @ApiProperty()
-    id : number;
-    @ApiProperty
-    name : string;
-    @ApiProperty()
-    price : number;
+    @((ApiProperty() as any))
+    id! : number;
+    @((ApiProperty() as any))
+    name! : string;
+    @((ApiProperty() as any))
+    price! : number;
 }
