@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@nestjs/config": "^12.1.1"
+    "@nestjs/config": "^12.1.1",
+    "@nestjs/swagger": "^12.1.2"
   }
 }
